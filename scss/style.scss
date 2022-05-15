@@ -183,6 +183,11 @@ body._lock{
             top: 50%;
             transform: scale(1) translate(0px, -50%);
         }
+        &:hover{
+            &::before, &::after, & span{
+                background-color: $color_1;
+            }
+        }
     }
     .menu__icon{
         &._active{

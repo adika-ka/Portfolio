@@ -199,6 +199,9 @@ body._lock {
     -webkit-transform: scale(1) translate(0px, -50%);
             transform: scale(1) translate(0px, -50%);
   }
+  .menu__icon:hover::before, .menu__icon:hover::after, .menu__icon:hover span {
+    background-color: #BDAE82;
+  }
   .menu__icon._active span {
     -webkit-transform: scale(0) translate(0px, -50%);
             transform: scale(0) translate(0px, -50%);
