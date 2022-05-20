@@ -49,7 +49,7 @@ body._lock {
 }
 
 .hero {
-  background: url(../img/bg.png) 0 0/cover no-repeat;
+  background: url(../img/bg.jpg) 0 0/cover no-repeat;
   height: 45.5rem;
   margin-bottom: 100px;
   margin: 0 -20px 100px;
@@ -850,7 +850,7 @@ body._lock {
 }
 
 .contacts {
-  background: url(../img/contacts.png) 0 0/cover no-repeat;
+  background: url(../img/contacts.jpg) 0 0/cover no-repeat;
   height: 35rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -995,7 +995,7 @@ body._lock {
 
 @media (max-width: 900px) {
   .contacts {
-    background: url(../img/contacts.png) 55%/cover no-repeat;
+    background: url(../img/contacts.jpg) 55%/cover no-repeat;
     height: 30rem;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -1023,7 +1023,7 @@ body._lock {
 
 @media (max-width: 500px) {
   .contacts {
-    background: url(../img/contacts.png) 75%/cover no-repeat;
+    background: url(../img/contacts.jpg) 75%/cover no-repeat;
   }
   .contacts__box {
     width: 90%;
