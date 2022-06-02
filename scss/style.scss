@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -155,10 +156,10 @@ body._lock{
 // Burger
 @media(max-width: 768px){
     .header {
-        padding: 0 60px;
+        padding: 0 40px;
     }
     .header__language {
-        margin-right: 20px;
+        margin-right: 35px;
     }
     .menu-list__link{
         font-size: 35px;
@@ -259,21 +260,31 @@ body._lock{
 @media(max-width: 768px){
     .hero__content {
         width: 63%;
-        padding-left: 60px;
+        padding-left: 40px;
     }
     .hero {
-        height: 29.5rem;
-        background-size: 130% 110%;
+        // height: 31rem;
+        background-size: 127% 84%;
         padding-top: 170px ;
+        margin-bottom: 0px;
+    }
+    .hero__title {
+        margin-bottom: 20px;  
     }
     .hero-title__text {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
         font-weight: 400;
         font-size: 32px;
-        line-height: 64px;
+        line-height: 60px;
+        letter-spacing: 1.5px;
     }
     .hero__text {
         line-height: 24px;
-        margin-bottom: 25px;
+        margin-bottom: 60px;
+    }
+    .language__slash {
+        margin: 0 10px 0 10px;
     }
 }
 @media(max-width: 480px){
@@ -414,21 +425,36 @@ body._lock{
     }
 }
 @media(max-width: 768px){
+    .skills {
+        padding: 0 45px;
+        margin-bottom: $mb;
+        margin-top: -10px;
+    }
     .title {
         &::before{
             width: 17.7%;
-            left: 20%;
+            left: 22%;
         }
         &::after{
             content: '';
             width: 17.7%;
-            right: 20%;
+            right: 22%;
         }
     }
     .title__text{
         font-size: 32px;
         line-height: 40px;
     }
+    .skills__item {
+        margin-bottom: 30px;
+    }
+    .skills-item__img {
+        margin-bottom: 30px;
+    }
+    .skills-item__text {
+        line-height: 22px;
+    }
+
 }
 @media(max-width: 480px){
     .title {
@@ -579,16 +605,20 @@ body._lock{
     }
 }
 @media(max-width: 768px){
+    .portfolio {
+        padding-top: 20px;
+        margin-bottom: $mb;
+    }
     .portfolio__title {
         &::before{
             content: '';
-            width: 23%;
-            left: 10%;
+            width: 12%;
+            left: 20%;
         }
         &::after{
             content: '';
-            width: 23%;
-            right: 10%;
+            width: 12%;
+            right: 20%;
         }
     }
     .portfolio-gallery__photo {
@@ -677,6 +707,12 @@ body._lock{
     }
 }
 @media(max-width: 768px){
+    .video {
+        margin: 0 -20px $mb -20px;
+    }
+    .video__title {
+        margin-bottom: 90px;
+    }
     .video__play {
         top: 40%;
         left: 43%;
@@ -694,6 +730,7 @@ body._lock{
 
 .price {
     margin-bottom: $mb;
+    padding-top: 20px;
 }
 .price__title {
     margin-bottom: 60px;
@@ -876,7 +913,10 @@ body._lock{
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 60px;
+        padding-top: 40px;
+      }
+      .contacts {
+        margin-bottom: -20px;
       }
 }
 @media(max-width: 480px){
